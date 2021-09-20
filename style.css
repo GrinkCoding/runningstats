@@ -19,7 +19,7 @@ html{
 
 body{
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0,0.6)), url("images/background_accueil.jpg");
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 
@@ -104,9 +104,9 @@ h1{
 
 
 .close1, .close2{
-    cursor: pointer;
     padding: 2rem;
     font-size: 2rem;
+    display: inline-block;
 }
 
 .open1, .open2{
@@ -120,6 +120,10 @@ form{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.form-modal1{
+    margin-top: 3rem;
 }
 
 input{
@@ -143,4 +147,23 @@ button{
     border:none;
     padding: 1.3rem 4.5rem;
     font-size: 1.7rem;
+}
+
+
+/* Media queries */
+
+@media only screen and (max-width: 420px){
+    html{
+        font-size: 50%;
+    }
+
+    svg{
+        height:3rem;
+        width: 3rem;
+        } 
+}
+@media only screen and (max-width: 321px){
+    html{
+        font-size: 40%;
+    }
 }
