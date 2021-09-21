@@ -54,7 +54,7 @@ h1{
  text-decoration: none;
  font-size: 2rem;
  padding: 1.5rem 3.5rem;
- border-radius: 1rem;
+ border-radius: .5rem;
  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.5);
  transition: .3s all;
 }
@@ -86,12 +86,11 @@ h1{
     top:8%;
     transform: scale(1);
     box-shadow: 0 0 1rem 0 rgba(0,0,0,.5);
-    border-radius: .3rem;
     transition : all 1s;
     backdrop-filter: blur(6px) saturate(83%);
     -webkit-backdrop-filter: blur(6px) saturate(83%);
     background-color: rgba(0, 0, 0, 0.33);
-    border-radius: 12px;
+    border-radius: .5rem;
     border: 1px solid rgba(209, 213, 219, 0.3);
 }
 
@@ -136,6 +135,7 @@ input{
     border : solid .2rem #ff8419;
     background-color: black; 
     color:#ff8419;
+    border-radius: .5rem;
 }
 
 input::placeholder{
@@ -170,7 +170,13 @@ button{
 
     .modal2{
         top : 5%;
+        height: 68rem;
     }
+
+    .button-1{
+        margin-top:10rem;
+    }
+
 }
 @media only screen and (max-width: 321px){
     html{
