@@ -21,7 +21,7 @@ body{
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0,0.6)), url("images/background_accueil.jpg") no-repeat;
     background-size: cover;
     background-position: center;
-    height: 85vh;
+    height: 90.1vh;
 }
 
 .center{
@@ -159,10 +159,6 @@ button{
 @media only screen and (max-width: 420px){
     html{
         font-size: 50%;
-    }
-
-    body{
-        height: 90.1vh;
     }
 
     svg{
