@@ -18,7 +18,7 @@ html{
 }
 
 body{
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0,0.6)), url("images/background_accueil.jpg") no-repeat;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0,0.6)), url("images/background_accueil_small.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: 90.1vh;

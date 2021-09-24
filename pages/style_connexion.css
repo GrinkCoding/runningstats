@@ -25,7 +25,7 @@ h1{
 .box-image{
     width: 50%;
     height: 100vh;
-    background: url(../images/images_forms2.jpg) no-repeat;
+    background: url(../images/images_forms2_small.jpg) no-repeat;
     background-size: cover;
     background-position: bottom;
 }
