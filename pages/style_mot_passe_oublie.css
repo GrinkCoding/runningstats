@@ -113,10 +113,11 @@ input::placeholder{
 
     h1{
         font-size: 3.5rem;
+        margin-top: -30rem;
     }
 
     form{
-        margin-top: -20rem;
+        margin-top: -30rem;
     }
 
 }
