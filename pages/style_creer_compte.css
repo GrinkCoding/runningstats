@@ -13,7 +13,8 @@ body{
     display: flex;
     /* background:#f1f1f1; */
     /* background: linear-gradient(rgb(255, 166, 0), rgb(255,255,255)) no-repeat; */
-    background: linear-gradient(to left top, rgb(255, 166, 0),#f6e58d, #ffbe76) no-repeat;
+    /* background: linear-gradient(to left top, rgb(255, 166, 0),#f6e58d, #ffbe76) no-repeat; */
+    background: linear-gradient(to left top,#ff3838, #ff4d4d,#ff3838) no-repeat;
 }
 
 
@@ -21,7 +22,8 @@ h1{
     font-size: 7rem;
     /* color: #ff8419; */
     /* color:white; */
-    color:#333;
+    /* color:#333; */
+    color: #f1f1f1;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     text-shadow: 0.1rem 0.1rem 0.1rem rgba(0,0,0,.5);
@@ -52,7 +54,7 @@ button{
     color: white;
     text-decoration: none;
     border-radius: .5rem;
-    margin-top: 3rem; 
+    margin-top: 5rem; 
     border:none;
     padding: 1.3rem 4.5rem;
     font-size: 1.7rem;
@@ -63,8 +65,9 @@ button{
 
 button:hover{
     background-color: black;
-    color: #ff8419;
-   }
+    /* color: #ff8419; */
+    color:red
+}
 
 
 
@@ -81,9 +84,11 @@ input{
     padding: 1.5rem 5rem 1.5rem 1.5rem;
     width: 40rem;
     outline: none;
-    border : solid .2rem #ff8419;
+    /* border : solid .2rem #ff8419; */
+    border : solid .2rem white;
     background-color: black;
-    color:#ff8419;
+    /* color:#ff8419; */
+    color: white;
     border-radius: .5rem;
 }
 

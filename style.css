@@ -20,7 +20,8 @@ html{
 
 body{
     /* background: linear-gradient(rgb(255, 166, 0), rgb(255,255,255)) no-repeat; */
-    background: linear-gradient(to left top, rgb(255, 166, 0),#ffbe76, #f6e58d) no-repeat;
+    /* background: linear-gradient(to left top, rgb(255, 166, 0),#ffbe76, #f6e58d) no-repeat; */
+    background: linear-gradient(to left top,#ff3838, #ff4d4d,#ff3838) no-repeat;
 }
 
 .center{
@@ -41,6 +42,7 @@ body{
 h1{
     font-size: 7rem;
     color:#f1f1f1;
+    /* color:#333; */
     font-family: 'Roboto', sans-serif;
     text-align: center;
     width: 30rem;
@@ -67,11 +69,12 @@ h1{
 .button-1:hover, button:hover{
     /* background-color: #ff8419; */
     background-color: black;
-    color: #ff8419;
+    /* color: #ff8419; */
+    color: red;
 }
 
 .link-1{
-    color: #333;
+    color: white;
     display: block;
     margin-top: 3rem;
     text-align: center;
@@ -81,7 +84,7 @@ h1{
 
 .link-1:hover{
     /* color: #ff8419; */
-    color: white;
+    color: #333;
 }
 
 /* modals */
