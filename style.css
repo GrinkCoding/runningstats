@@ -15,13 +15,12 @@ font-family: 'Roboto', sans-serif;
 html{
     font-size: 62.5%;
     font-family: 'Roboto', sans-serif;
+    height: 100vh;
 }
 
 body{
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0,0.6)), url("images/background_accueil_small.jpg") no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 90.1vh;
+    /* background: linear-gradient(rgb(255, 166, 0), rgb(255,255,255)) no-repeat; */
+    background: linear-gradient(to left top, rgb(255, 166, 0),#ffbe76, #f6e58d) no-repeat;
 }
 
 .center{
@@ -36,19 +35,22 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 10rem;
+    /* transform: rotate(-15deg); */
 }
 
 h1{
     font-size: 7rem;
-    color: #ff8419;
+    color:#f1f1f1;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     width: 30rem;
+    text-shadow: 0.1rem 0.1rem 0.2rem rgba(0,0,0,.5);
+    transform: rotate(-15deg);
 }
 
 .button-1, button{
- background-color: #ff8419;
- color: black;
+ background-color: #333;
+ color: white;
  text-decoration: none;
  font-size: 2rem;
  padding: 1.5rem 3.5rem;
@@ -59,15 +61,17 @@ h1{
 
 .button-1{
     margin-top:8rem;
+    cursor: pointer;
 }
 
 .button-1:hover, button:hover{
+    /* background-color: #ff8419; */
     background-color: black;
     color: #ff8419;
-   }
+}
 
 .link-1{
-    color: #f1f1f1;
+    color: #333;
     display: block;
     margin-top: 3rem;
     text-align: center;
@@ -76,11 +80,12 @@ h1{
 }
 
 .link-1:hover{
-    color: #ff8419;
+    /* color: #ff8419; */
+    color: white;
 }
 
 /* modals */
-.modal1, .modal2{
+/* .modal1, .modal2{
     width: 50rem;
     height: 80rem;
     background-color: rgba(255,255,255,1);
@@ -114,11 +119,11 @@ h1{
 
 .open1, .open2{
     transform: scale(0);
-}
+} */
 
 
 /* formulaire */
-form{
+/* form{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -151,7 +156,7 @@ button{
     border:none;
     padding: 1.3rem 4.5rem;
     font-size: 1.7rem;
-}
+} */
 
 
 /* Media queries */
@@ -161,7 +166,7 @@ button{
         font-size: 50%;
     }
     
-    svg{
+    /* svg{
         height:3rem;
         width: 3rem;
         } 
@@ -169,11 +174,11 @@ button{
     .modal2{
         top : 5%;
         height: 68rem;
-    }
+    } */
 
-    body{
+    /* body{
         background-position: right;
-    }
+    } */
 
 }
 @media only screen and (max-width: 321px){
